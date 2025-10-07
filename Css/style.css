@@ -90,7 +90,7 @@
     margin-left: 65px;
     gap: 20px;
 }
-/* footer {
+footer {
     background-color:var(--Bg-color-primary);
     color: var(--forgrade-color-tertiory);
     padding: 40px 0;
@@ -121,4 +121,4 @@
     color: #ddd;
     text-decoration: none;
     font-size: 14px;
-} */
+}
