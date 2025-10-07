@@ -66,6 +66,12 @@
 .header-navbar{
     padding: 5px 40px;
 }
+.caret{
+    height: 16px;
+}
+.test{
+    height: 500px;
+}
 .navlist{
     text-decoration: none;
     color: var(--forgrade-color-secondary);
