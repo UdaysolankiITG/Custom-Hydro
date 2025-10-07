@@ -18,6 +18,8 @@
  --font-body-family:"DM Sans", sans-serif;
  /* button radius */
  --button-radius:5px;
+ /* font-size */
+ 
 }
 .page-width{
     max-width:calc(1800px - 50px);
