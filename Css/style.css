@@ -67,7 +67,7 @@
 }
 
 .header-wrapper,
-.reach-txt-wrapper {
+.rich-txt-wrapper {
     background-color: var(--bg-color-secondary);
 }
 
@@ -297,7 +297,7 @@
     gap: 46px;
 }
 
-.reach-txt-content {
+.rich-txt-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -305,7 +305,7 @@
     align-items: center;
 }
 
-.reach-txt-para {
+.rich-txt-para {
     text-align: center;
     font-size: var(--font-size-primary);
     font-style: normal;
