@@ -206,7 +206,7 @@
 
 .heading {
     font-size: var(--font-size-superior);
-    font-style: normal;
+    font-weight: 700;
     color: var(--forgrade-color-tertiory);
     font-family: var(--font-family-secondary);
 }
@@ -218,7 +218,7 @@
 }
 .sub-heading {
     font-size: var(--font-size-primary);
-    font-style: normal;
+    font-weight: bold;
     font-family: var(--font-family-secondary);
 }
 
