@@ -314,7 +314,9 @@
     font-style: normal;
     font-family: var(--font-body-family);
 }
-
+ .rich-txt-para-ctn{
+    width: 57%;
+ }
 .featured-product-wrapper {
     background-color: var(--bg-color-tertiory);
 }
