@@ -283,12 +283,14 @@
 
 .collection-list-ctn {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     padding: 100px 0;
     gap: 30px;
 }
 
 .collection-card {
-    width: 100%;
+    width: calc(14.28% - 30px);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -337,12 +339,14 @@
     background-color: var(--bg-color-secondary);
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: calc(25% - 5px);
 }
 
 .product-cards {
     padding: 20px 0;
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     gap: 5px;
 }
 
