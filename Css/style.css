@@ -110,7 +110,10 @@
 .navlist:hover {
     color: var(--hover-color);
 }
-
+ .button-underline:hover{
+    color: var(--hover-color);
+   border-bottom: 1px solid  var(--hover-color);
+}
 .button-outline:hover,
 .button-primary:hover {
     background-color: var(--bg-color-fourth);
