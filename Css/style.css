@@ -477,13 +477,16 @@
     bottom: 0%;
     transition: transform 0.4s ease;
 }
-.product-card:hover ,.product-scroll-card:hover{
+.product-card:hover , .product-scroll-card:hover{
  background-color: var(--bg-color-primary);
  color: var(--forgrade-color-tertiory);
 }
-.product-card:hover , .product-scroll-card:hover .product-cart{
+.product-card:hover  .product-cart{
+ visibility: visible;}
+ .product-scroll-card:hover .product-cart{
  visibility: visible;
 }
+
 .marque-content{
     background-color: var(--bg-color-secondary);
     padding: 15px;
