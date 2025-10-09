@@ -247,12 +247,12 @@
     font-size: var(--font-size-secondary);
     font-style: normal;
     color: var(--forgrade-color-tertiory);
-    border: 1px solid #ffffff;
+    border: 1px solid #ffffffc0;
     border-radius: var(--button-radius);
     cursor: pointer;
+    background-color: #ffffff4a;
     text-decoration: none;
     font-family: var(--font-body-family);
-    opacity: 1;
 }
 
 .button-primary {
