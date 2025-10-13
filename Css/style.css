@@ -224,10 +224,14 @@ a {
     padding: 0 0 20px 0;
 }
 
-.banner-slider,
+.banner-slider{
+    border-radius: 10px;
+    position: relative;
+}
 .product-img {
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .shop-link {
@@ -490,10 +494,13 @@ a {
     background-color: var(--bg-color-secondary);
     display: flex;
     flex-direction: column;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* transition: 3.3s ease; */
     width: calc(25% - 5px);
+    transition: 1.0s;
 }
-
+ .product-card:hover .product-cart{
+   transform: translateY(-10px);
+ }
 .product-cards,
 .product-cards2,
 .collection-cards2,
@@ -514,6 +521,7 @@ a {
     padding: 0px 0 20px;
     background-color: var(--bg-color-secondary);
     width: 33%;
+    transition: 1.0s;
 }
 
 .collection-card2:hover {
@@ -569,7 +577,6 @@ a {
 }
 
 .product-cart {
-    visibility: hidden;
     padding: 4px 8px;
     font-size: var(--font-size-secondary);
     font-style: normal;
@@ -579,10 +586,10 @@ a {
     text-decoration: none;
     color: var(--forgrade-color-tertiory);
     position: absolute;
-    left: 87%;
-    transform: translate(-50%, -50%);
+    left: 85%;
     bottom: 0%;
-    transition: transform 0.4s ease;
+    transition: transform 0.5s ease;
+    transform: translateY(34px);
 }
 
 .product-card2:hover,
@@ -591,17 +598,12 @@ a {
     background-color: var(--bg-color-primary);
     color: var(--forgrade-color-tertiory);
 }
-
-.product-card:hover .product-cart {
-    visibility: visible;
-}
-
 .product-scroll-card:hover .product-cart {
-    visibility: visible;
+   transform: translateY(-10px);
 }
 
 .product-card2:hover .product-cart {
-    visibility: visible;
+    transform: translateY(-10px);
 }
 
 .marque-content {
@@ -713,8 +715,8 @@ a {
     background-color: var(--bg-color-secondary);
     display: flex;
     flex-direction: column;
-    transition: background-color 0.3s ease, transform 0.3s ease;
     width: calc(50% - 5px);
+    transition: 1.0s;
 }
 
 .img-ctn {
@@ -747,7 +749,7 @@ a {
     background-color: var(--bg-color-secondary);
     display: flex;
     flex-direction: column;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+   transition: 1.0s;
     width: calc(33.3% - 5px);
 }
 
@@ -778,9 +780,10 @@ a {
 }
 
 .newslater-img-ctn img {
-    height: 400px;
     object-fit: cover;
     object-position: center;
+    filter: brightness(0.5);
+    aspect-ratio: 9/2;
 }
 
 .news-later-para {
@@ -792,8 +795,6 @@ a {
 
 .newslater-content {
     display: flex;
-    height: 400px;
-    background-color: #00000056;
     position: absolute;
     top: 50%;
     justify-content: center;
@@ -845,25 +846,31 @@ a {
 ::placeholder {
     color: var(--forgrade-color-tertiory);
 }
-
 .blog-img-ctn {
     display: flex;
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
-
 .blog-card {
     display: flex;
     width: 32%;
 }
-
+ 
 .blog-txt-ctn {
     position: absolute;
-    top: 74%;
-    left: 36%;
-    transform: translate(-50%, -50%);
+    top: 68%;
+    left: 5%;
+    transform: translateY(10px);
+    transition: 0.5s;
 }
-
+ .blog-card:hover .blog-txt-ctn{
+    transform: translateY(-50px);
+ }
+ .blog-card:hover .blog-img-ctn img {
+     transition: 0.5s;
+     filter: brightness(0.5);
+ }
 .blog-card-ctn {
     display: flex;
     justify-content: center;
@@ -877,12 +884,13 @@ a {
     display: flex;
     width: 100%;
     object-fit: cover;
+    filter: brightness(0.7);
 }
 
 .blog-img-txt {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 17px;
     color: var(--forgrade-color-tertiory);
 }
 
