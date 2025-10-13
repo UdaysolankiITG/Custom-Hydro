@@ -85,15 +85,18 @@ a {
 .multi-column-wrapper {
     background-color: var(--bg-color-secondary);
 }
- #header {
+
+#header {
     position: sticky;
     top: 0;
     z-index: 999;
-     background-color: var(--bg-color-secondary);
+    background-color: var(--bg-color-secondary);
 }
-#header.scrolled{
+
+#header.scrolled {
     background-color: var(--forgrade-color-tertiory);
 }
+
 .list-unset {
     list-style: none;
 }
@@ -231,10 +234,11 @@ a {
     padding: 0 0 20px 0;
 }
 
-.banner-slider{
+.banner-slider {
     border-radius: 10px;
     position: relative;
 }
+
 .product-img {
     border-radius: 10px;
     position: relative;
@@ -505,9 +509,11 @@ a {
     width: calc(25% - 5px);
     transition: 1.0s;
 }
- .product-card:hover .product-cart{
-   transform: translateY(-10px);
- }
+
+.product-card:hover .product-cart {
+    transform: translateY(-10px);
+}
+
 .product-cards,
 .product-cards2,
 .collection-cards2,
@@ -605,8 +611,9 @@ a {
     background-color: var(--bg-color-primary);
     color: var(--forgrade-color-tertiory);
 }
+
 .product-scroll-card:hover .product-cart {
-   transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .product-card2:hover .product-cart {
@@ -756,7 +763,7 @@ a {
     background-color: var(--bg-color-secondary);
     display: flex;
     flex-direction: column;
-   transition: 1.0s;
+    transition: 1.0s;
     width: calc(33.3% - 5px);
 }
 
@@ -853,17 +860,19 @@ a {
 ::placeholder {
     color: var(--forgrade-color-tertiory);
 }
+
 .blog-img-ctn {
     display: flex;
     position: relative;
     width: 100%;
     overflow: hidden;
 }
+
 .blog-card {
     display: flex;
     width: 32%;
 }
- 
+
 .blog-txt-ctn {
     position: absolute;
     top: 68%;
@@ -871,13 +880,16 @@ a {
     transform: translateY(10px);
     transition: 0.5s;
 }
- .blog-card:hover .blog-txt-ctn{
+
+.blog-card:hover .blog-txt-ctn {
     transform: translateY(-50px);
- }
- .blog-card:hover .blog-img-ctn img {
-     transition: 0.5s;
-     filter: brightness(0.5);
- }
+}
+
+.blog-card:hover .blog-img-ctn img {
+    transition: 0.5s;
+    filter: brightness(0.5);
+}
+
 .blog-card-ctn {
     display: flex;
     justify-content: center;
@@ -958,23 +970,28 @@ details div.content {
     flex-wrap: nowrap;
     gap: 33px;
     padding: 50px 0 0 0;
-    animation:blogpost 100s linear infinite  ;
+    animation: blogpost 100s linear infinite;
 }
-.feedback-marquee:hover{
-  animation-play-state: paused;
+
+.feedback-marquee:hover {
+    animation-play-state: paused;
 }
+
 @keyframes blogpost {
-    0%{
+    0% {
         transform: translateX(0%);
-    }  
-    100%{
+    }
+
+    100% {
         transform: translateX(-100%);
-    }  
-  }
-  .feedback-marquee-ctn {
+    }
+}
+
+.feedback-marquee-ctn {
     display: flex;
     overflow: hidden;
 }
+
 .feedback-card {
     background-color: white;
     padding: 40px;
