@@ -81,12 +81,19 @@ a {
     display: inline-flex;
 }
 
-.header-wrapper,
 .rich-txt-wrapper,
 .multi-column-wrapper {
     background-color: var(--bg-color-secondary);
 }
-
+ #header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+     background-color: var(--bg-color-secondary);
+}
+#header.scrolled{
+    background-color: var(--forgrade-color-tertiory);
+}
 .list-unset {
     list-style: none;
 }
@@ -950,8 +957,8 @@ details div.content {
     display: flex;
     flex-wrap: nowrap;
     gap: 33px;
-    padding: 69px;
-    animation:blogpost 71s linear infinite  ;
+    padding: 50px 0 0 0;
+    animation:blogpost 100s linear infinite  ;
 }
 .feedback-marquee:hover{
   animation-play-state: paused;
